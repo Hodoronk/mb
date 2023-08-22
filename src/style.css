@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+}
+
+
+header{
+    border: 1px solid black;
+    height: 20vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+.top{
+    flex: 1;
+
+}
+#center{
+    display: flex;
+    justify-content: space-around;
+}
+
+button{
+    appearance: none;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    font-size: 3vh;
+    font-family: Helvetica;
+    height: 2vh;
+    margin-top:10vh;
+}
+
+#right{
+    display: flex;
+    justify-content: right;
+}
+
+.small{
+    font-size: 2vh;
+    margin-top: 0;
+}
